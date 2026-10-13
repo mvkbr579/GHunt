@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "jusbrasil-mcp": {
+      "type": "http",
+      "url": "https://api.mcp.ai/legal"
+    },
+    "jus-mcp": {
+      "type": "http",
+      "url": "https://api.mcp.ai/jus"
+    },
+    "brazilmcp": {
+      "type": "http",
+      "url": "https://api.brazilmcp.dev/mcp"
+    },
+    "juridico-brasil": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-juridico-brasil"
+      ],
+      "env": {}
+    }
+  }
+}
